@@ -4,7 +4,8 @@
   "description": "Node Express Api with typescript",
   "main": "src/server.ts",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest --config jest.config.ts --coverage",
+    "build": "rm -rf build/ && tsc"
   },
   "author": "Fortunatus Ihedoro",
   "license": "MIT",
